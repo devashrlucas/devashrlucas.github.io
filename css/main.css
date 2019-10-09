@@ -1,36 +1,19 @@
 
 body {
     overflow-y: scroll;
-}
-
-header {
-    border-style: solid;
-    position: relative;
-    top: 100px;
-}
-
-nav {
-    border-style: solid;
-    height: 5%;
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    left: 1000px; 
-}
-
-footer {
-    border-style: solid;
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .main-container{
-    border-style: solid;
     position: relative;
-    top: 200px;
-    text-align: center;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .portfolio-item {
-    border-style: solid;
     width: 100%;
 }
 
@@ -46,4 +29,8 @@ footer {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-evenly;  
+}
+
+#portfolio {
+    margin-bottom: 1%;
 }
