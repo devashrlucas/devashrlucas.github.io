@@ -1,4 +1,49 @@
 
+body {
+    overflow-y: scroll;
+}
+
+header {
+    border-style: solid;
+    position: relative;
+    top: 100px;
+}
+
+nav {
+    border-style: solid;
+    height: 5%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 1000px; 
+}
+
+footer {
+    border-style: solid;
+}
+
+.main-container{
+    border-style: solid;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+.portfolio-item {
+    border-style: solid;
+    width: 100%;
+}
+
 #navbar li{
     display: inline-block;
+    text-align: left;
+    font-size: 1.3em;
+    padding-left: 2%;
+}
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;  
 }
