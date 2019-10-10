@@ -4,33 +4,52 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
     display: flex;
     flex-direction: column;
+    margin-left: 1%;
+}
+
+h1 {
+    box-shadow: 5px 10px #888888;
+}
+
+label {
+    margin-bottom: 10%;
+}
+input, textarea {
+    margin-bottom: 1%;
+    margin-left: 1%;
+    height: 2vh;
+    width: 20vw;
+    font-size: 1em;
+}
+
+textarea {
+    height: 10vh;
+}
+
+button {
+    margin-left: 6%;
+    height: 2vh;
+    width: 8vw;
+    font-size: 1em;
 }
 
 .main-container{
-    position: relative;
-    top: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.portfolio-item {
-    width: 100%;
-}
-
-#navbar li{
-    display: inline-block;
-    text-align: left;
-    font-size: 1.3em;
-    padding-left: 2%;
-}
-
-#portfolio {
+  position: relative;
+  top: 10px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-evenly;  
 }
 
-#portfolio {
-    margin-bottom: 1%;
+.portfolio-item {
+    width: 100%;
 }
+
+#portfolio {
+  margin-bottom: 1%;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
